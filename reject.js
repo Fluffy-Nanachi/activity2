@@ -1,4 +1,6 @@
+// FREDERICK MARIUS LONTOC
 /*REJECT*/
+// comment out each given only one uncommented at a time to test
 
 function reject(arr, callback) {
   let result = [];

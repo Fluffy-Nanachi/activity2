@@ -1,4 +1,7 @@
+// FREDERICK MARIUS LONTOC
+
 /*FILTER*/
+// comment out each given only one uncommented at a time to test
 
 function filter(arr, callback) {
   let result = [];
@@ -12,11 +15,11 @@ function filter(arr, callback) {
 
 /*1*/
 
-// let result = filter([1, 2, 3, 4, 15], function (val) {
-//   return val < 10;
-// }); //this filters each value in the array and only allows values that are less than 10
+let result = filter([1, 2, 3, 4, 15], function (val) {
+  return val < 10;
+}); //this filters each value in the array and only allows values that are less than 10
 
-// console.log(result); //this should log [1,2,3,4]
+console.log(result); //this should log [1,2,3,4]
 
 // /*2*/
 

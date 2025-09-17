@@ -1,3 +1,5 @@
+// FREDERICK MARIUS LONTOC
+
 //FOREACH
 
 function foreach(arr, callback) {
